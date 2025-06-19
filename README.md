@@ -6,3 +6,5 @@ Focus is on data wrangling and optimization check of performance between functio
 Not much comments, process must be read from the code and names of variables.
 
 Graphics enchanced.
+
+austinwater.csv is over github allowed limits, it has been uploaded compressed.
