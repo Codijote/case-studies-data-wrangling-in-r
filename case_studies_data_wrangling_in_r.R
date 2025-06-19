@@ -320,3 +320,8 @@ ggplot(ssa) +
   geom_point(aes(date, Total), color = 'blue') +
   geom_point(aes(date, Internet), color = 'green')
 
+ggplot(ssa) +
+  geom_area(aes(date, Total), color = 'lightblue', fill = 'lightblue') +
+  geom_area(aes(date, Internet), color = 'green', fill = 'green') +
+  ggtitle('Internet applications are a major proportion every year') +
+  annotate('text', as.Date('2014-01-01'), 75000, label = 'Applications over the internet')
